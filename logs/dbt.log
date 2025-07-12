@@ -1,0 +1,8 @@
+[0m18:49:50.309374 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'start', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x105d71d00>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x10619dca0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x1075cdfa0>]}
+
+
+============================== 18:49:50.312372 | 415da039-311f-44e0-b535-31d15bae57eb ==============================
+[0m18:49:50.312372 [info ] [MainThread]: Running with dbt=1.9.0
+[0m18:49:50.312739 [debug] [MainThread]: running dbt with arguments {'printer_width': '80', 'indirect_selection': 'eager', 'log_cache_events': 'False', 'write_json': 'True', 'partial_parse': 'True', 'cache_selected_only': 'False', 'profiles_dir': '/Users/nomantahir/.dbt', 'version_check': 'True', 'warn_error': 'None', 'log_path': 'logs', 'fail_fast': 'False', 'debug': 'False', 'use_colors': 'True', 'use_experimental_parser': 'False', 'empty': 'None', 'quiet': 'False', 'no_print': 'None', 'log_format': 'default', 'introspect': 'True', 'warn_error_options': 'WarnErrorOptions(include=[], exclude=[])', 'static_parser': 'True', 'target_path': 'None', 'invocation_command': 'dbt init dbt-netflix-project', 'send_anonymous_usage_stats': 'True'}
+[0m18:49:50.320760 [warn ] [MainThread]: [ConfigFolderDirectory]: Unable to parse logging event dictionary. Failed to parse dir field: expected string or bytes-like object.. Dictionary: {'dir': PosixPath('/Users/nomantahir/.dbt')}
+[0m18:49:50.321018 [info ] [MainThread]: Creating dbt configuration folder at 
