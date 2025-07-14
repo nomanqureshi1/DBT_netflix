@@ -1,0 +1,9 @@
+# 📽️ Netflix Project (MovieLens 20M Dataset)
+
+This dbt project models and transforms the [MovieLens 20M Dataset](https://grouplens.org/datasets/movielens/20m/) for analytics and reporting in Snowflake.
+
+---
+
+## 📌 Dataset
+
+- **Source**: [MovieLens 20M Dataset](https://grouplens.org/datasets/movielens/20m/)
