@@ -1,0 +1,9 @@
+version: 2
+
+models:
+        
+  - name: fct_genome_scores
+    columns:
+      - name: relevance_score
+        tests:
+          - not_null
